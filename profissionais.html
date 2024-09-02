@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PROFISSIONAIS</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #304444; 
+            color: white; 
+            font-family: 'Georgia', 'Times New Roman', Times, serif;
+        }
+
+        /* Estilo da Barra de Navegação */
+        .navbar {
+            background-color: #87CEEB;
+        }
+
+        .navbar-brand,
+        .nav-link {
+            color: white !important;
+            font-weight: bold;
+        }
+
+        /* Estilos do Conteúdo Principal */
+        .text-center-custom {
+            font-size: 2.5rem;
+            margin-bottom: 50px;
+            text-align: center;
+        }
+        .main-content {
+            padding: 40px 10px;
+            background-color: rgba(48, 68, 68, 0.8);
+        }
+
+        .main-content h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .main-content p {
+            font-size: 1.2rem;
+            text-align: justify;
+            margin-bottom: 40px;
+        }
+
+        /* Estilos dos Perfis */
+        .profile-card {
+            margin-bottom: 60px;
+            padding-bottom: 40px;
+            border-bottom: 1px solid #fffacd;
+        }
+
+        .profile-card .profile-image {
+            max-width: 300px;
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .profile-card .profile-name {
+            font-size: 2rem;
+            background-color: white;
+            color: black;
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .profile-card .profile-position {
+            font-size: 1.5rem;
+            background-color: white;
+            color: black;
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .profile-card .profile-description {
+            font-size: 1.2rem;
+            text-align: justify;
+            background-color: white;
+            color: black;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        /* Estilo da Mensagem Final */
+        .final-message {
+            text-align: center;
+            font-size: 1.5rem;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center; 
+            padding: 10px; 
+            border-top: 1px solid #ddd; 
+        }
+    </style>
+</head>
+<body>
+
+   <!--INÍCIO DA BARRA DE MENU-->
+   <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Babá Segura</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" href="sobre a empresa.html">SOBRE A EMPRESA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="profissionais.html">PROFISSIONAIS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="servicos.html">SERVIÇOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="clientes.html">CLIENTES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">BLOG</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--FIM DA BARRA DE MENU-->
+
+    <!--INÍCIO DO CONTEÚDO PRINCIPAL-->
+    <div class="container-fluid main-content">
+        <div class="container">
+            <h1 class="text-center text-center-custom" style="margin-bottom: 50px;">PROFISSIONAIS</h1>
+            <p>
+                Na Babá Segura, nossos profissionais são cuidadosamente selecionados e treinados para garantir o melhor cuidado às crianças e tranquilidade aos pais. Cada babá passa por um rigoroso processo de seleção que inclui verificação de antecedentes, entrevistas detalhadas e testes de aptidão. Nossas babás possuem anos de experiência no cuidado infantil e são certificadas em primeiros socorros, segurança infantil e desenvolvimento infantil. Além disso, investimos continuamente em treinamentos e workshops para que nossos profissionais estejam sempre atualizados com as melhores práticas de cuidado infantil. O comprometimento, a paciência e a empatia são características essenciais que todas as nossas babás compartilham, garantindo que cada criança receba atenção personalizada e carinhosa.
+            </p>
+
+            <!-- Perfil de Ana Martins -->
+            <div class="row profile-card align-items-center">
+                <div class="col-md-5 text-center">
+                    <img src="Ana.png" alt="Ana Martins" class="profile-image">
+                </div>
+                <div class="col-md-7 text-center text-md-start">
+                    <div class="profile-name">Ana Martins</div>
+                    <div class="profile-position">Coordenadora de Babás</div>
+                    <p class="profile-description">
+                        Ana possui mais de 10 anos de experiência em cuidados infantis. Formada em Pedagogia, ela também possui certificações em primeiros socorros e segurança infantil. Ana é responsável pelo treinamento das babás e pelo acompanhamento do desenvolvimento das crianças sob nossos cuidados.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Perfil de Joana Silva -->
+            <div class="row profile-card align-items-center">
+                <div class="col-md-5 text-center order-md-2">
+                    <img src="Joana.png" alt="Joana Silva" class="profile-image">
+                </div>
+                <div class="col-md-7 text-center text-md-start order-md-1">
+                    <div class="profile-name">Joana Silva</div>
+                    <div class="profile-position">Supervisora de Qualidade</div>
+                    <p class="profile-description">
+                        Joana é enfermeira pediátrica com 8 anos de experiência em cuidados intensivos para crianças. Ela supervisiona as práticas de cuidado e garante que todos os protocolos de segurança sejam seguidos rigorosamente. Joana também lidera as sessões de treinamento em primeiros socorros e manejo de emergências.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Perfil de Carla Menezes -->
+            <div class="row profile-card align-items-center">
+                <div class="col-md-5 text-center">
+                    <img src="Carla.png" alt="Carla Menezes" class="profile-image">
+                </div>
+                <div class="col-md-7 text-center text-md-start">
+                    <div class="profile-name">Carla Menezes</div>
+                    <div class="profile-position">Babá Sênior</div>
+                    <p class="profile-description">
+                        Com 15 anos de experiência no cuidado de crianças, Carla é uma das babás mais experientes da equipe. Ela é certificada em desenvolvimento infantil e tem uma abordagem afetuosa e educativa que faz dela uma favorita entre as crianças e os pais.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Mensagem Final -->
+            <div class="final-message">
+                Esses profissionais representam o compromisso da Babá Segura em oferecer um serviço de excelência e confiança para todas as famílias.
+            </div>
+        </div>
+    </div>
+    <!--FIM DO CONTEÚDO PRINCIPAL-->
+     <!-- Rodapé -->
+     <footer>
+        Desenvolvido por Mateus João Dariva
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
